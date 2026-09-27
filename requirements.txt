@@ -1,0 +1,6 @@
+# The MapReduce engine, mapper, and reducer scripts use only the Python
+# standard library — that's deliberate, matching how real Hadoop Streaming
+# jobs can be written in any language with no special libraries.
+#
+# Only the sample-data generator needs a dependency:
+numpy>=1.24
