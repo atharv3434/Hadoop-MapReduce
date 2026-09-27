@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Sales-by-category aggregation mapper — Hadoop Streaming contract.
+"""
+Sales-by-category aggregation mapper — Hadoop Streaming contract.
 
 Reads CSV lines (date,product,category,amount) from stdin and emits
 "category<TAB>amount" for each row. Skips the header line if present.
