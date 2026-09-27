@@ -1,4 +1,5 @@
-"""A local execution engine that replicates Hadoop's actual MapReduce data
+"""
+A local execution engine that replicates Hadoop's actual MapReduce data
 flow — input splitting, parallel map tasks, hash-partitioned shuffle &
 sort, and parallel reduce tasks — running ordinary Hadoop-Streaming-style
 mapper/reducer scripts (subprocesses that read stdin, write stdout).
@@ -29,6 +30,7 @@ What is NOT reproduced (this runs on one machine, not a real cluster):
 Because the mapper/reducer scripts only use stdin/stdout, the exact same
 job files would run unchanged on a real Hadoop cluster via Hadoop
 Streaming — only the execution engine underneath differs.
+
 """
 
 import argparse
