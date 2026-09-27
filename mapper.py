@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Word count mapper — Hadoop Streaming contract.
+"""
+Word count mapper — Hadoop Streaming contract.
 
 Reads text lines from stdin, one record per line (exactly what Hadoop
 passes a map task from its assigned input split), and writes
