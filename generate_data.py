@@ -1,4 +1,5 @@
-"""Generate sample input data for the two bundled MapReduce jobs.
+"""
+Generate sample input data for the two bundled MapReduce jobs.
 
 This project ships with pre-generated data already in place
 (data/sample_text.txt, data/sales_log.csv), so you don't need to run this
