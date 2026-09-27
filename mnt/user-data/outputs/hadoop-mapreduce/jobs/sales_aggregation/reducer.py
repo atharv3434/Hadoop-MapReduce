@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Sales-by-category aggregation reducer — Hadoop Streaming contract.
+"""
+Sales-by-category aggregation reducer — Hadoop Streaming contract.
 
 Relies on the same "sorted, grouped by key" guarantee as
 jobs/wordcount/reducer.py. Emits total amount, order count, and average
