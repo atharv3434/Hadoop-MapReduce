@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Word count reducer — Hadoop Streaming contract.
+"""
+Word count reducer — Hadoop Streaming contract.
 
 Hadoop guarantees the reducer receives its input already sorted by key,
 with all values for the same key arriving consecutively (this is exactly
